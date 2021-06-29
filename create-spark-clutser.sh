@@ -10,7 +10,7 @@ gcloud dataproc clusters create ${CLUSTER_NAME} \
   --image-version=1.5 \
   --master-machine-type=n1-standard-4 \
   --worker-machine-type=n1-standard-4 \
-  --num-workers 2 \
+  --num-workers 3 \
   --bucket=${BUCKET_NAME} \
   --optional-components=ANACONDA,JUPYTER \
   --enable-component-gateway \
